@@ -244,6 +244,8 @@ class WiFiComponent : public Component {
 
   bool is_connected();
 
+  bool is_ap();
+
   void set_power_save_mode(WiFiPowerSaveMode power_save);
   void set_output_power(float output_power) { output_power_ = output_power; }
 
